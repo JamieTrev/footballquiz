@@ -32,6 +32,7 @@ function showQuestion() {
         }
 
         nextButton.style.display = "none";
+        startButton.textContent = "Start over";
     } else {
         showResults();
     }
@@ -83,9 +84,47 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+startButton.addEventListener("click", () => {
+    resetQuiz();
+});
+
 const answerButtons = document.querySelectorAll(".quiz-button");
 answerButtons.forEach(button => {
     button.addEventListener("click", checkAnswer);
 });
 
-showQuestion();
+const quizContainer = document.getElementById("quiz");
+const aboutContainer = document.getElementById("about");
+
+function resetQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+
+    for (let i = 0; i < quizContainers.length; i++) {
+        quizContainers[i].style.display = "block";
+    }
+    resultDiv.style.display = "none";
+
+    quizContainer.style.display = "block";
+    aboutContainer.style.display = "none";
+    startButton.textContent = "Start the Quiz";
+
+    showQuestion();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const homeLink = document.getElementById("home-link");
+    const aboutLink = document.getElementById("about-link");
+
+    homeLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        resetQuiz();
+    });
+
+    aboutLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        quizContainer.style.display = "none";
+        aboutContainer.style.display = "block";
+        startButton.textContent = "Start the Quiz";
+    });
+});
