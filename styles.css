@@ -66,3 +66,41 @@ body {
 .quiz-button.wrong {
     background-color: #FF5733;
 }
+
+nav {
+    font-size: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #336699;
+}
+
+nav a:hover {
+    color: #4499cc;
+}
+
+button {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ol.rules {
+    text-align: left;
+    line-height: 1.5;
+}
