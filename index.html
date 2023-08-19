@@ -1,29 +1,34 @@
 <html>
-<head>
+  <head>
     <title>Football Quiz</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div id="header">
-    <h1>Football Quiz</h1>
-    <nav>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Football Quiz</h1>
+      <nav>
         <a href="#" id="home-link">Home</a> |
         <a href="#" id="about-link">About</a>
-    </nav>
-</div>
-<div class="container">
-    <div id="quiz">
+      </nav>
+    </div>
+    <div class="container">
+      <div id="quiz">
         <div class="quiz-question"></div>
         <button class="quiz-button"></button>
-        <br/>
+        <br />
         <button class="quiz-button"></button>
-        <br/>
+        <br />
         <button class="quiz-button"></button>
-        <br/>
+        <br />
         <button class="quiz-button"></button>
+      </div>
+      <button class="next-button" style="display: none">Next question</button>
     </div>
-    <button id="next-button" class="next-button" style="display: none;">Next question</button>
-</div>
-<script src="script.js"></script>
-</body>
+    <div id="result" class="quiz-container" style="display: none">
+      <h2>Quiz Results</h2>
+      <p id="score"></p>
+    </div>
+    <button class="start-button">Start the Quiz</button>
+    <script src="script.js"></script>
+  </body>
 </html>
