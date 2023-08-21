@@ -2,8 +2,8 @@
 (Developer: Jamie Hughes)
 
 
-![image10](images/readme_image_10.jpeg) and credit
-Live Webpage (as a link to site)
+![amiresponsive](images/amiresponsive.png) 
+Live Webpage: https://jamietrev.github.io/footballquiz/
 
 ## Contents
 1. [Introduction](#introduction)
@@ -29,9 +29,6 @@ Live Webpage (as a link to site)
 10. [Deployment](#deployment)
 11. [Credits](#credits)
 	- [Media](#media)
-
-Please note that the content is organized according to the headings and subheadings in the provided README.md file. You can use these links to easily navigate to different sections of the document.
-
 
 
 ## Introduction
@@ -73,8 +70,10 @@ The Football Quiz is a multiple choice online quiz testing the users knowledge o
 -   CSS: Styling the user interface to make it visually appealing and responsive.
 -   JavaScript: Adding interactivity to the quiz, checking answers, and providing feedback.
 ### Helpful Sites
-www.w3schools.com was helpful for initial brainstorming and design ideas.
-https://developer.mozilla.org/en-US/ was another helpful site for general layout and standard practise of writing code.
+- https://www.w3schools.com/default.asp was helpful for initial brainstorming and design ideas.
+- https://developer.mozilla.org/en-US/ was another helpful site for general layout and standard practise of writing code.
+- The background image throughout quiz home and about pages are from https://unsplash.com/
+- I went to https://ui.dev/amiresponsive to demonsrate the responsivness on different screen sizes.
 
 ## Usage
 
@@ -87,8 +86,10 @@ https://developer.mozilla.org/en-US/ was another helpful site for general layout
 
 ## Quiz Layout
 
-- The Home page is the initial landing page for the quiz displays a football background image with a short paragraph explaining the use of the quiz. This includes a start quiz button below for easy navigation directly to the quiz.
-- The About page includes simple broken down instructions of how to take the quiz.
+- The About page is the initial landing page for the quiz displays a football background image with a short paragraph explaining the use of the quiz. This includes a start quiz button below for easy navigation directly to the quiz.
+- The Home page is the start of the quiz.
+
+![landingpage](images/about-landingpage.png)
 
 ## Testing
 ### Overview
@@ -120,16 +121,18 @@ We took extra care to ensure our project works consistently across different web
 -   Microsoft Edge
 -   Safari
 
+### Unfixed Bugs
+
+The only bug that has not been resolved is on smaller computer screens and tablets the background image appears to enlarge once an answer has been selected. A minor inconvenience which does not impact the quiz but this will be ammended soon.
+
 ## Validator Testing
 - HTML - No errors were returned when passing through the official W3C validator
-![image6](images/readme_image_6.jpeg)
+![htmlvalidation](images/htmlvalidation.png)
 
 - CSS - No errors were found when passing through the official (Jigsaw) validator
-![image8](images/readme_image_8.jpeg)
+![cssvalidation](images/cssvalidation.png)
 - Java Script - No errors were found when passing through a linter (JSHint)
-(picture)
-
-## Unfixed Bugs
+![jshint](images/jshint.png)
 
 ## Deployment
 - The Site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -137,11 +140,8 @@ We took extra care to ensure our project works consistently across different web
 	- From the source section drop-down menu, select the Main Branch
 	- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 	
-	The live link can be found here - ...
+	The live link can be found here - https://jamietrev.github.io/footballquiz/
 
 ## Credits
 - The application was developed by Jamie Hughes.
 - The functionality for keeping track of the score was inspired by the Love Maths project.
-
-### Media
-- The background image throughout quiz home and about pages are from...
