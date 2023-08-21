@@ -2,7 +2,7 @@
 (Developer: Jamie Hughes)
 
 
-(Responsiveness preview) and credit
+![image10](images/readme_image_10.jpeg) and credit
 Live Webpage (as a link to site)
 
 ## Contents
