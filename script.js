@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const questions = [{
     "question": "Which Country won the first-ever FIFA World Cup in 1930?",
     "answers": ["A. Brazil", "B. Germany", "C. Uruguay", "D. France"],
