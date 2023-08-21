@@ -121,12 +121,13 @@ We took extra care to ensure our project works consistently across different web
 -   Safari
 
 ## Validator Testing
-- HTML
-	- No errors were returned when passing through the official W3C validator
-- CSS
-	- No errors were found when passing through the official (Jigsaw) validator
-- Java Script
-	- No errors were found when passing through a linter (JSHint)
+- HTML - No errors were returned when passing through the official W3C validator
+![image6](images/readme_image_6.jpeg)
+
+- CSS - No errors were found when passing through the official (Jigsaw) validator
+![image8](images/readme_image_8.jpeg)
+- Java Script - No errors were found when passing through a linter (JSHint)
+(picture)
 
 ## Unfixed Bugs
 
