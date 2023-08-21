@@ -136,7 +136,7 @@ The only bug that has not been resolved is on smaller computer screens and table
 
 ## Deployment
 - The Site was deployed to GitHub pages. The steps to deploy are as follows:
-	- In the GitHub repository, navigate to the Settings tab
+	- In the GitHub repository, navigate to the Settings tab and then select Pages
 	- From the source section drop-down menu, select the Main Branch
 	- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 	
